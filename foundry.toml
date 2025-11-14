@@ -1,0 +1,17 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.20"
+
+[rpc_endpoints]
+scroll_sepolia = "https://sepolia-rpc.scroll.io/"
+
+[etherscan]
+# Using Etherscan API V2 - unified multichain API
+# Get your API key from: https://etherscan.io/myapikey
+# This single key works for all supported chains (60+ networks)
+scroll_sepolia = { key = "${ETHERSCAN_API_KEY}", url = "https://api.etherscan.io/v2/api", chainid = 534351 }
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
