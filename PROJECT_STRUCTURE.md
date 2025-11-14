@@ -64,6 +64,7 @@ The test suite includes:
 
 1. **Install Dependencies** / **Instalar Dependencias**
    ```bash
+   forge install foundry-rs/forge-std
    forge install OpenZeppelin/openzeppelin-contracts --no-commit
    ```
 

@@ -21,6 +21,7 @@ A basic ERC20 token implementation using Foundry, ready for deployment on Scroll
 ### 1. Install Dependencies
 
 ```bash
+forge install foundry-rs/forge-std
 forge install OpenZeppelin/openzeppelin-contracts --no-commit
 ```
 
@@ -133,6 +134,7 @@ Un token ERC20 básico usando Foundry, listo para desplegar en la testnet Scroll
 ### 1. Instalar Dependencias
 
 ```bash
+forge install foundry-rs/forge-std
 forge install OpenZeppelin/openzeppelin-contracts --no-commit
 ```
 

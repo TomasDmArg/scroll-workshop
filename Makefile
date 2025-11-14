@@ -11,7 +11,8 @@ help:
 	@echo "  make clean      - Clean build artifacts"
 
 install:
-	@echo "Installing OpenZeppelin contracts..."
+	@echo "Installing dependencies..."
+	forge install foundry-rs/forge-std
 	forge install OpenZeppelin/openzeppelin-contracts --no-commit
 
 build:

@@ -16,7 +16,8 @@
 
 ```bash
 # 1. Install dependencies
-forge install OpenZeppelin/openzeppelin-contracts --no-commit
+forge install foundry-rs/forge-std
+forge install OpenZeppelin/openzeppelin-contracts
 
 # 2. Create .env file and add your keys
 # Copy the content from the template below
@@ -60,7 +61,8 @@ INITIAL_SUPPLY=1000000
 
 ```bash
 # 1. Instalar dependencias
-forge install OpenZeppelin/openzeppelin-contracts --no-commit
+forge install foundry-rs/forge-std
+forge install OpenZeppelin/openzeppelin-contracts
 
 # 2. Crear archivo .env y agregar tus claves
 # Copia el contenido de la plantilla de abajo
